@@ -135,6 +135,12 @@ header nav a:hover {
   
 }
 
+@media (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 .nav-list.active {
   transform: translateX(0);
 }
@@ -405,9 +411,11 @@ header nav a:hover {
 
   .s-sobre-text h3 {
     font-size: 4.8rem;
+    
   }
   .s-sobre-text p {
     font-size: 2rem;
+
   }
   .s-sobre-img img {
     height: 600px;
@@ -424,6 +432,8 @@ header nav a:hover {
 
   .s-sobre-text p {
     font-size: 1.6rem;
+    /* display: block; */
+    width: 100%;
   }
 
   .right img {
