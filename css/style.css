@@ -135,12 +135,6 @@ header nav a:hover {
   
 }
 
-@media (max-width: 500px) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
 .nav-list.active {
   transform: translateX(0);
 }
@@ -661,6 +655,15 @@ footer span a:hover {
   margin-top: 1.2rem;
   margin-left: 1.1rem;
 }
+
+/* RESPONSIVO WHATS */
+
+@media (max-width: 800px) {
+  #Whats {
+    position: fixed;
+  }
+}
+
 
 
 
