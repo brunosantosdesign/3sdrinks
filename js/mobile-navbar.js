@@ -19,6 +19,15 @@ class MobileNavbar {
   }
 
   handleClick() {
+    const navListDisplayStyle = window
+      .getComputedStyle(this.navList)
+      .getPropertyValue("display");
+
+    if (navListDisplayStyle === "flex") {
+      this.navList.style.display = "none";
+    } else {
+      this.navList.style.display = "flex";
+    }
     this.navList.classList.toggle(this.activeClass);
     this.mobileMenu.classList.toggle(this.activeClass);
     this.animateLinks();
@@ -27,7 +36,7 @@ class MobileNavbar {
   addClickEvent() {
     this.mobileMenu.addEventListener("click", this.handleClick);
   }
-  
+
   init() {
     if (this.mobileMenu) {
       this.addClickEvent();
@@ -39,6 +48,6 @@ class MobileNavbar {
 const mobileNavbar = new MobileNavbar(
   ".mobile-menu",
   ".nav-list",
-  ".nav-list a",
+  ".nav-list a"
 );
 mobileNavbar.init();
