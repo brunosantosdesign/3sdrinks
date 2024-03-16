@@ -108,6 +108,11 @@ header nav a:hover {
   body {
     overflow-x: hidden;
   }
+
+  header nav {
+    display: none;
+  }
+
   .nav-list {
     position: absolute;
     top: 11.2vh;
