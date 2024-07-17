@@ -3,7 +3,7 @@ const Whats = document.querySelector("#Whats")
 
 Whats.addEventListener("click", () => {
   window.open(
-    "https://wa.me/551313996159796?text=Olá! Seja bem vindo a 3S Drink'S Saboó. Agradecemos pelo seu contato!",
+    "https://wa.me/551313991932444?text=Olá! Seja bem vindo a 3S Drink'S Saboó. Agradecemos pelo seu contato!",
     "_blank"
   )
 })
