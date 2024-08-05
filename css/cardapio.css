@@ -343,30 +343,34 @@ header nav a:hover {
   line-height: 2.6rem;
 }
 
-/* .s-cardapio-table td:nth-child(1) {
-  padding: 2.4rem;
-  text-align: start;
-  font-weight: 700;
-  color: #FFF;
-  font-family: PT Sans;
-  font-size: 2.4rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 2.4rem;
-  text-transform: uppercase;
-  letter-spacing: 0.768rem;
+/* Botao Voltar */
+
+.s-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  margin-bottom: 8.8rem;
 }
 
-.s-cardapio-table td:nth-child(2) {
-  padding: 2.4rem;
-  text-align: end;
-  color: #EC6E00;
-  font-family: PT Sans;
-  font-size: 2.4rem;
-  font-style: normal;
-  font-weight: 400;
+.s-btn .btn-voltar {
+  padding: 1.6rem 3.2rem;
+  background: #ec6e00;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  font-weight: 700;
   line-height: 2.4rem;
-} */
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.s-btn .btn-voltar:hover {
+  background: #fff;
+  color: #ec6e00;
+}
 
 /* RESPONSIVO */
 
